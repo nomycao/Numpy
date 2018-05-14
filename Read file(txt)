@@ -1,4 +1,5 @@
 import numpy
+
 world_alcohol = numpy.genfromtxt("world_alcohol.txt", delimiter",",dtype=str) '绝对路径'
 print (type(world_alcohol))
 print (world_alcohol)
